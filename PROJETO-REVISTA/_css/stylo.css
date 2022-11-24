@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poor Story', Arial, Helvetica, sans-serif;
+    
+}
+
+.contanier {
+    width: 920px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #c1f2a3;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.titulo {
+    flex: 1;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-right: 12px;
+    text-transform: uppercase;
+}
+
+.titulo h1:hover {
+    color: #fff;
+    
+}
+
+.titulo span {
+    color: #fff;
+    border-bottom: 5px solid #000;
+    
+}
+
+.titulo span:hover {
+    color: #000;
+    border-bottom: 5px solid #fff;
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    margin-left: 10px;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.botao {
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #45a907;
+    border-radius: 10px;
+    border: 1px solid #45a907;
+    text-transform: uppercase;
+}
+
+/* FIM TOPO */
+
+.principal {
+    width: 920px;
+    margin:5px auto;
+    background-color: #45a907;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.arte {
+    margin-left: 15px;
+}
+
+.conteudo {
+    display: flex;
+    margin: 15px;
+}
+
+section .texto .img1 img {
+   border: 5px solid #fff;
+   border-radius: 10px;
+   width: 400px;
+   margin-top: 15px;
+
+}
+
+
+.leitura {
+    width: 400px;
+}
+
+aside .leitura {
+    margin-left: 15px;
+    width: 450px;
+}
+
+
+.leitura  {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    height: 350px;
+    padding: 15px;
+    background-color: #fff;
+    margin-top: 15px;
+}
+
+aside .leitura  {
+    border: 3px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    height: 150px;
+    padding: 15px;
+    background-color: #e1f918;
+    font-weight: bold;
+}
+
+.leitura p ,
+.leitura h5 {
+    margin-top: 10px;
+}
+
+section .texto img {
+    border: 7px solid #000;
+}
+
+aside img {
+    width: 360px;
+    height: 253px;
+    margin-left: 10px;
+    border: 7px solid #000;
+}
+
+aside .img1 img {
+    margin-top: 10px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    width: 450px;
+    margin-left: 15px;
+ }
+
+.footer {
+    color: #fff;
+    width: 920px;
+    margin: auto;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.resumo img {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    margin-left: 100px;
+}
+
+.resumo h3 {
+    margin: 15px;
+}
+
+.aluno {
+    border: 2px solid #fff;
+    margin-left: 80px;
+    border-radius: 5px;
+}
+
+.aluno h4 {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px;
+}

@@ -1,0 +1,26 @@
+#home {
+	background: #ffc107;
+	color: white;
+}
+
+.menu {
+	text-transform: uppercase;
+
+}
+
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a {
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 5px 15px;
+}
+
+
+.meunu-rodape {
+	text-decoration: none;
+}
+

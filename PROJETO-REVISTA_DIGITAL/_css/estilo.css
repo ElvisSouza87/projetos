@@ -1,0 +1,369 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Righteous', cursive;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    margin-top: 10px;
+   
+}
+
+.contanier {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+   
+}
+
+header h4 {
+    color: #a48b35;
+    
+}
+
+header img {
+    width: 100px;
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul, 
+nav li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+nav ul {
+    display: flex;
+    
+}
+
+nav ul a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
+    color:#a48b35;
+}
+
+nav .active a ,
+nav a:hover {
+    background-color: #af9e66;
+    color: #fff;
+}
+
+/****FIM TOP ****/
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(../_imagens/rex-bg2.jpg);
+    background-position:0px -170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 2px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner-headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.banner-headline h1 {
+    color: #fff;
+    font-size: 70px;
+    text-shadow: 3px 2px 0px #000;
+    margin-left: 440px;
+    padding: 0px;
+    max-width: 350px;
+
+}
+
+.banner-headline h2 {
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 2px 0px #000;
+    margin-left: 440px;
+    padding: 0px;
+    max-width: 350px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+
+}
+
+.banner-options { 
+    width: 53%;
+    height: 210px;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
+    color: #ecd68b;
+    text-shadow: 1px 2px 0px #000;
+    padding: 20px;
+}
+
+.banner1 {
+    background-image: url(../_imagens/Triceratops.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #fff;
+
+}
+
+.banner2 {
+    background-image: url(../_imagens/varios-dino.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 1px 1px 0px #f00;
+    border: 1px solid #fff;
+}
+
+.banner3 {
+    background-image: url(../_imagens/extinção.jpeg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #fff;
+}
+
+.banner-title {
+    font-size: 21px;
+    margin-bottom: 10px;
+    
+}
+
+.banner-options a { 
+    margin-top: 5px;
+}
+
+
+.banner-options a { 
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner-options a:hover { 
+    display: inline-block;
+    border: 1px solid #f4d846;
+    text-decoration: none;
+    color: #f4d846;
+}
+
+/* FIM CONTEUDO */
+
+/* INICIO RODAPÉ */
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+   
+    
+}
+
+.footer-menu {
+    display: flex;
+}
+
+.footer-area {
+    display: flex;
+    
+}
+
+.footer-areaitem {
+    flex: 1;
+    color: #fff;
+}
+
+.flexColumn {
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+footer .widget-title-text {
+    color: #fff;
+    
+}
+
+.footer-copy {
+    color: #5c5c5c;
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+footer .material-symbols-outlined {
+    background-color: #727272;
+    margin-left: 2px;
+    color: #ccc;
+}
+
+.footer-desc1 {
+    color: #5c5c5c;
+    width: 300px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #5c5c5c;
+}
+
+.bottom {
+    margin-bottom: 25px;
+}
+
+.white {
+    color: #fff;
+}
+
+.latest {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.years {
+    color: #39aae1;
+}
+
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm-line {
+    height: 3px;
+    background-color: #39aae1;
+}
+
+/*  *** Responsive  @media *** */
+
+
+/* Extra small devices (portrait phones, less than 600px) */
+@media (max-width: 600.00px) and (max-width: 1200px) { 
+    .banner-headline {
+        padding: 20px;
+       
+    }
+    .banner-headline h1  {
+        font-size: 50px;
+        margin: 0px;
+    }
+    .banner-headline h2  {
+        font-size: 17px;
+        margin: 0px;
+    }
+
+    .banner-options {
+        height: auto;
+        flex-direction: column;
+        width:85%;
+    }
+
+    #banner {
+        background-position: 0px -80px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    #geral section, 
+    #geral aside {
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    footer {
+        margin-top: 190px;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-area {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-copy {
+        padding-left: 20px;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        background-color: #fff;
+       
+    }
+
+    header {
+        height: auto;
+        padding: 20px;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+    
+ }
+
