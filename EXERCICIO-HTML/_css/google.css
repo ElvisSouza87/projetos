@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 50px;
+}
+
+header a {
+    display: block;
+    color: #5c5c5c;
+    padding: 5px;
+    margin: 3px;
+    text-decoration: none;
+    
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.right {
+    margin-right: 18px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    align-items: flex-end;
+    width: 920px;
+    margin: 10px auto;
+    
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+
+}
+
+article h2 {
+    font-size: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+
+.blue {
+   color: #1974ba;
+}
+
+.red {
+   color: #e80128;
+}
+
+.yellow {
+   color: #dfe730;
+}
+
+.green {
+   color: #36aa0b;
+}
+
+.form {
+    height: 60px;
+    align-items: flex-start;
+}
+
+input {
+    padding: 15px 15px 15px 40px;
+    font-size: 15px;
+    width: 550px;
+    height: 45px;
+    border-radius: 15px;
+    border: 2px solid #ccc;
+}
+
+input::placeholder {
+    color: #e80128;
+}
+
+.icone {
+    position: absolute;
+    left: 920px;
+    top: 330px;
+    color: #ccc;
+}
+
+.icone1 {
+    position: absolute;
+    left: 888px;
+    top: 330px;
+    color: #ccc;
+}
+
+.lupa {
+    position: absolute;
+    left: 413px;
+    top: 330px;
+    color: #ccc;
+}
+
+.pesquisa {
+    height: 60px;
+    align-items: flex-start;
+}
+
+.pesquisa a {
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 15px;
+    color: #5c5c5c;
+    background-color: #f0f3f3;
+}
+
+.pesquisa a:hover {
+    border: 1px solid #ccc;
+    
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 1000px) { 
+    .icone {
+        position: absolute;
+        left: 700px;
+        top: 330px;
+        color: #ccc;
+    }
+    
+    .icone1 {
+        position: absolute;
+        left: 670px;
+        top: 330px;
+        color: #ccc;
+    }
+    
+    .lupa {
+        position: absolute;
+        left: 200px;
+        top: 330px;
+        color: #ccc;
+    }
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 600px) and (max-width: 767.98px) { 
+}    
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+

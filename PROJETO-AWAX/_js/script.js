@@ -1,3 +1,16 @@
+window.onload = function() {
+    document.querySelector(".menuMobile").addEventListener("click", function(){
+        if(document.querySelector(".menu nav ul").style.display == 'flex') {
+            document.querySelector(".menu nav ul").style.display = 'none';
+            
+        } else {
+            document.querySelector(".menu nav ul").style.display = 'flex';
+            
+        }
+    });
+};
+
+
 /*let nome = prompt("Qual nome do piloto: ?");
 let velocidade = 0;
 
@@ -43,3 +56,4 @@ if(velocity <= 0) {
 }
 alert("Piloto: " + pilotName + "\nVelocidade: " + velocity + "km/s")
 */
+

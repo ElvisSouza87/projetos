@@ -1,8 +1,8 @@
 let nome = 'Elvis';
 let sobrenome = 'Castanha de Souza';
 
-//let nomeCompleto = nome + ' ' + sobrenome;
-let nomeCompleto = `${nome} ${sobrenome}`;
+//let nomeCompleto = nome + ' ' + sobrenome; //concatenar
+let nomeCompleto = `${nome} ${sobrenome}`; 
 
 console.log("Nome: " + nomeCompleto);
 

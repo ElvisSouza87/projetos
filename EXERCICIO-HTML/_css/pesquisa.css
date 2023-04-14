@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    margin: 10px 25px 10px 10px ;
+    
+}
+
+.menu {
+   margin-top: 45px;
+
+}
+
+.menu input {
+    width: 700px;
+    padding: 12px;
+    margin-bottom: 20px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.menu nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    padding: 12px 17px 13px 17px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 3px 3px 0px 0px;
+    color: #5c5c5c;
+}
+
+nav .active a,
+nav a:hover {
+    display: block;
+    padding: 12px 17px 13px 17px;
+    border-bottom: 3px solid #1396f9;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 3px 3px 0px 0px;
+    color: #1396f9;
+}
+
+.contanier {
+    width: 950px;
+    margin: 0px auto;
+}
+
+article {
+    margin-top: 10px;
+    
+}
+
+article span {
+    color: #5c5c5c;
+}
+
+.itens {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.itens h1,
+.itens h3,
+.itens p {
+    padding: 3px;
+}
+
+.itens h3 a {
+    color: #046f28;
+
+}
+
+.itens p {
+    color: #5c5c5c;
+}
+
+p::first-letter {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+

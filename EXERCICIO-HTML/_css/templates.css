@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5c5c5c;
+}
+
+#contanier {
+    display: flex;
+    flex-direction: column;
+    width: 920px;
+    margin: 5px auto;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #92cef3;
+    border-radius: 10px;
+}
+
+header .logo {
+    display: flex;
+    padding: 10px 10px 10px 20px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    border-radius: 10px;
+    
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.menu {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    height: 50px;
+    margin: 12px 15px;
+}
+
+.mobile {
+    width: 30px;
+    margin: 12px;
+    
+    
+}
+
+.menuMobile {
+    width: 30px;
+    border: 1px solid #fff;
+    border: 5px;
+    height: 4px;
+    background-color: #fff;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.banner {
+    margin-top: 3px;
+    background: url(../_imagens/bg1.jpg);
+    background-size: cover;
+    height: 370px;
+    border-radius: 10px
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    color: #fff;
+    margin: 40px;
+    
+}
+
+article h1 {
+    font-size: 50px;
+}
+
+article h2 {
+    margin-top: 18px;
+}
+
+article a {
+    width: 190px;
+    padding: 12px;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#92cef3;;
+    border: 1px solid #92cef3;
+    font-weight: bold;
+}
+
+article a:hover {
+    width: 190px;
+    padding: 12px;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#000;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.conteudo {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+
+.itens {
+    display: flex;
+    width: 200px;
+    margin: 15px 5px 5px 5px;
+}
+
+.itens img {
+    width: 80%;
+    border: 4px solid #92cef3;
+}
+
+.height {
+    width: 80%;
+    height: 106px;
+}
+
+.itens h4 {
+    margin: 8px 0px 8px 0px;
+}
+
+.itens a {
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.itens a:hover {
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    padding: 3px;
+    opacity: 0.9;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+footer {
+    margin-top: 8px;
+    color: #fff;
+
+}
+

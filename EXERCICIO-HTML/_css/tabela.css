@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 15px;
+}
+
+table {
+    width: 400px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+table thead {
+    background-color: #ccc;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #88f9f2; 
+}
+
+.valor {
+    text-align: right;
+}
+
+.colspan {
+    font-weight: bold;
+}
+
+table tr:hover {
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+div button {
+    padding: 8px 13px 8px 13px;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: #fff;
+    border: 1px solid cornflowerblue;
+
+}
+
+div button:hover {
+    padding: 8px 13px 8px 13px;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    color: #fff;
+    border: 1px solid cadetblue;
+    cursor: pointer;
+    
+}
+
+#tarja {
+    width: 300px;
+    height: 87px;
+    background-color: cornflowerblue;
+    transform: rotate(45deg);
+    position: fixed;
+    right: -96px;
+    top: 12px;
+    box-shadow: 3px 5px 5px 9px #ccc;
+    
+
+}
+
+#tarja a {
+    text-decoration: none;
+}
+
+#tarja h2 {
+    padding: 25px 35px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    
+
+}
